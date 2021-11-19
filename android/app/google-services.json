@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1034690080239",
+    "project_id": "product-db0cc",
+    "storage_bucket": "product-db0cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034690080239:android:1a7e9937124a5876079a1a",
+        "android_client_info": {
+          "package_name": "com.fivhir.shop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034690080239-hkhh9tgce4o9n9vp45a8ejg425mjd32o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4nXxzrZLP_4r98oB-fbD499PZOoc8X-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034690080239-hkhh9tgce4o9n9vp45a8ejg425mjd32o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
