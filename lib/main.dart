@@ -8,6 +8,7 @@ void main() async{
   
   runApp(MaterialApp(
     title: "Shop app",
+    debugShowCheckedModeBanner: false,
     initialRoute: HomePage.routeName,
     onGenerateRoute: AppRouter.onGenerateRoute,
     home: HomePage(),
