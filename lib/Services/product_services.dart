@@ -11,8 +11,8 @@ class Product_Services extends Base_Produt {
   @override
   Stream<List<Product>> getAllProduct() {
     // TODO: implement getAllProduct
-    return _firebaseFirestore.collection("product").snapshots().map((snapshot) {
-      return snapshot.docs.map((e) => Product.fromproductdata(e)).toList();
+    return _firebaseFirestore.collection("product").snapshots().map((snapshots) {
+      return snapshots.docs.map((product) => Product.fromproductdata(product)).toList();
     });
   }
 }

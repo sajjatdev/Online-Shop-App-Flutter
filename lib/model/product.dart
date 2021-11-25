@@ -10,7 +10,7 @@ class Product extends Equatable {
 
   static Product fromproductdata(DocumentSnapshot snap) {
     Product product =
-        Product(img: snap["img"], name: snap["name"], price: snap["price"]);
+        Product(img: snap['img'], name: snap['name'], price: snap['price']);
     return product;
   }
 
